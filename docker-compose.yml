@@ -19,7 +19,7 @@ services:
     image: qtt/stream_cutter
     ports:
       - "3000:3000"
-   depends_on:
+    depends_on:
       - kafka
   logserver4qukanlog:
     image: qtt/logserver4qukanlog
